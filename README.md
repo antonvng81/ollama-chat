@@ -26,13 +26,17 @@ Created with flet UI library.
 - create the following dirs and file
 
     mkdir uploads
+
     mkdir secret
+
     touch secret/SECRET_KEY
 
 - put this into SECRET_KEY file
     
     export FLET_UPLOAD_DIR='uploads'
+  
     export FLET_SECRET_KEY='YOUR_CUSTOM_FLET_SECRET_KEY'
+  
     export MYSQL_ROOT_KEY='YOUR_SQL_ROOT_PASSWORD'
 
 # run
