@@ -12,8 +12,8 @@ Created with flet UI library.
 
 - install mysql
 
-    sudo apt-get install mysql-server
-    mysql -uroot -pYOUR_SQL_ROOT_PASSWORD
+    sudo apt-get install mysql-server <br/>
+    mysql -uroot -pYOUR_SQL_ROOT_PASSWORD <br/>
 
 - create the venv environment: 
     
@@ -25,19 +25,15 @@ Created with flet UI library.
 
 - create the following dirs and file
 
-    mkdir uploads
-
-    mkdir secret
-
-    touch secret/SECRET_KEY
+    mkdir uploads <br/>
+    mkdir secret <br/>
+    touch secret/SECRET_KEY <br/>
 
 - put this into SECRET_KEY file
     
-    export FLET_UPLOAD_DIR='uploads'
-  
-    export FLET_SECRET_KEY='YOUR_CUSTOM_FLET_SECRET_KEY'
-  
-    export MYSQL_ROOT_KEY='YOUR_SQL_ROOT_PASSWORD'
+    export FLET_UPLOAD_DIR='uploads' <br/>
+    export FLET_SECRET_KEY='YOUR_CUSTOM_FLET_SECRET_KEY' <br/>  
+    export MYSQL_ROOT_KEY='YOUR_SQL_ROOT_PASSWORD' <br/>
 
 # run
 
