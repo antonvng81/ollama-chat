@@ -4,7 +4,11 @@ A chat client for ollama.
 
 Created with flet UI library.
 
-# installation
+# bash script install
+
+sh install.sh
+
+# manual install
 
 - install ollama 
 
@@ -17,11 +21,13 @@ Created with flet UI library.
 
 - create the venv environment: 
     
-    sh create_venv.sh
+    python3 -m venv venv </br>
+    source venv/bin/activate </br>
 
-- create database: 
-    
-    python3 create_database.py
+    pip install flet </br>
+    pip install mysql-connector-python </br>
+    pip install bcrypt </br>
+    pip install ollama </br>
 
 - create the following dirs and file
 
@@ -34,6 +40,11 @@ Created with flet UI library.
     export FLET_UPLOAD_DIR='uploads' <br/>
     export FLET_SECRET_KEY='YOUR_CUSTOM_FLET_SECRET_KEY' <br/>
     export MYSQL_ROOT_KEY='YOUR_SQL_ROOT_PASSWORD' <br/>
+
+- create database: 
+    
+    source secret/SECRET_KEY <br/>
+    python3 setup/create_database.py <br/>
 
 # run
 
