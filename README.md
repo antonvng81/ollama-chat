@@ -35,4 +35,8 @@ Created with flet UI library.
     export FLET_SECRET_KEY='YOUR_CUSTOM_FLET_SECRET_KEY'
     export MYSQL_ROOT_KEY='YOUR_SQL_ROOT_PASSWORD'
 
+# run
 
+- run with the following command
+
+    sh run.sh
