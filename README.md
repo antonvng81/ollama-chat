@@ -32,7 +32,7 @@ Created with flet UI library.
 - put this into SECRET_KEY file
     
     export FLET_UPLOAD_DIR='uploads' <br/>
-    export FLET_SECRET_KEY='YOUR_CUSTOM_FLET_SECRET_KEY' <br/>  
+    export FLET_SECRET_KEY='YOUR_CUSTOM_FLET_SECRET_KEY' <br/>
     export MYSQL_ROOT_KEY='YOUR_SQL_ROOT_PASSWORD' <br/>
 
 # run
